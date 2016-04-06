@@ -1,0 +1,34 @@
+-python output.py
+-main Test
+-cmd echo "\n\n\n***TESTING PYTHON***\n"; python3 output.py
+
+--next
+
+-neko output.n
+-main Test
+-cmd echo "\n\n\n***TESTING NEKO***\n"; neko output.n
+
+--next
+
+-js output.js
+-main Test
+-cmd echo "\n\n\n***TESTING JS**\n"; node output.js
+
+--next
+
+-cpp outputcpp
+-D source-header=""
+-main Test
+-cmd echo "\n\n\n***TESTING C++***\n"; ./outputcpp/Test
+
+--next
+
+-cs outputcs
+-main Test
+-cmd echo "\n\n\n***TESTING CS***\n"; mono outputcs/bin/Test.exe
+
+--next
+
+-java outputjava
+-main Test
+-cmd echo "\n\n\n***TESTING JAVA***\n"; pushd outputjava; java -jar Test.jar; popd
